@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(33,33,43);
+  color: rgb(156,164,185);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.1rem;
+  letter-spacing: 0px;
+}
+
+p {
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px 20px;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid rgb(54,54,64);
+}
+
+.flex, .orange-nav, .radio-item, .content {
+  display: flex;
+}
+
+.content {
+  flex-direction: column;
+  background-color: rgb(42,42,52);
+  border-radius: 15px;
+  margin: 50px auto;
+  width: 250px;
+}
+
+.orange-nav {
+  color: rgb(255, 255, 255);
+  background-color: rgb(236,173,97);
+  padding: 20px 20px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.radio-item, .orange-nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radio-item {
+  cursor: pointer;
+}
+
+.station-img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  border: 2px solid rgb(156,164,185);
+  margin: 1rem 0;
+}
+
+.display-none {
+  display: none;
+}
+
+.fa-2x {
+  font-size: 1.5em !important;
+}
