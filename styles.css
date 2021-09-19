@@ -18,7 +18,7 @@ p {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 15px 20px;
+  padding: 15px 20px 0px 20px;
 }
 
 hr {
@@ -26,7 +26,7 @@ hr {
   border-top: 2px solid rgb(54,54,64);
 }
 
-.flex, .orange-nav, .radio-item, .content {
+.flex, .orange-nav, .radio-item, .content, .footer {
   display: flex;
 }
 
@@ -38,11 +38,20 @@ hr {
   width: 250px;
 }
 
+.orange-nav, .footer {
+  border-radius: 15px 0px;
+}
+
 .orange-nav {
-  color: rgb(255, 255, 255);
   background-color: rgb(236,173,97);
-  padding: 20px 20px;
-  border-radius: 15px 15px 0px 0px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.footer {
+  justify-content: center;
+  padding: 5px 20px 20px;
+  color: rgb(236,173,97);
 }
 
 .radio-item, .orange-nav {
